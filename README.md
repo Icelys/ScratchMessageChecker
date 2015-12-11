@@ -1,0 +1,2 @@
+# ScratchMessageChecker
+Checks your messages
