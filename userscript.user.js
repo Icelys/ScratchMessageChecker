@@ -42,4 +42,4 @@ function getData(){
 	XMLRequest.send(null);
 }
 
-setInterval(getData, 4000);
+setInterval(getData, 10000);
