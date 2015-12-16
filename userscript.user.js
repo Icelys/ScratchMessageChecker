@@ -20,7 +20,7 @@ function update(data){
 	}
 	var decodedData = JSON.parse(data);
 	messageCount = decodedData.msg_count;
-	if(decodedData.err == undefined){
+	if(decodedData.err != undefined){
 		document.title = startTitle+" ("+messageCount+")";
 	} else {
 		document.title = startTitle;
